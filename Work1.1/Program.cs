@@ -53,3 +53,4 @@ class Program
         Console.WriteLine("Их произведение: {0}", product);
     }
 }
+//////
