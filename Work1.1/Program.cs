@@ -1,13 +1,17 @@
 ﻿using System;
-
 class Program
 {
     static void Main()
     {
-        // Явно задаём три различных числа
-        int a = 7;
-        int b = 2;
-        int c = 5;
+        // Ввод трёх различных чисел
+        Console.Write("Введите первое число: ");
+        int a = int.Parse(Console.ReadLine());
+
+        Console.Write("Введите второе число: ");
+        int b = int.Parse(Console.ReadLine());
+
+        Console.Write("Введите третье число: ");
+        int c = int.Parse(Console.ReadLine());
 
         // Переменные для хранения двух наименьших чисел
         int min1, min2;
@@ -53,4 +57,3 @@ class Program
         Console.WriteLine("Их произведение: {0}", product);
     }
 }
-//////
